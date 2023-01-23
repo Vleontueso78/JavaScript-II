@@ -1,0 +1,19 @@
+
+if ( ' ' ) {
+    console.log('este codigo se ejecuta si es true');
+}else{
+    console.log('este codigo se ejecuta si es false')
+}
+// Todos los numeros son true, excepto el 0 es true para JS.
+// Todos los strings son true, excepto el string vacio: '', ""
+
+// AND  Y    &&
+// OR   O    ||
+// NOT  NO   !
+
+a && b
+       (!a || !b)   <==> a && b
+T T    F F   F    T
+T F    F T   T    F
+F T    T F   T    F
+F F    T T   T    F
